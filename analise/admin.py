@@ -1,12 +1,9 @@
 from django.contrib import admin
-
 from .models.atleta import Atleta
-from .models.estatistica import Estatistica
-from .models.esporte import Esporte
 from .models.evento import Evento
+from .models.estatistica import Estatistica
 
-# Register your models here.
-
+# Registrando os modelos na interface administrativa
 admin.site.register(Atleta)
-admin.site.register(Estatistica)
 admin.site.register(Evento)
+admin.site.register(Estatistica)
